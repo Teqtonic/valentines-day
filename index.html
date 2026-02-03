@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animations">
+        <!-- Floating hearts and emojis will be added here via JS or simple CSS -->
+        <span class="floating-emoji">❤️</span>
+        <span class="floating-emoji">💖</span>
+        <span class="floating-emoji">💌</span>
+        <span class="floating-emoji">💕</span>
+        <span class="floating-emoji">👾</span>
+        <span class="floating-emoji">💝</span>
+        <span class="floating-emoji">💘</span>
+    </div>
+
+    <div class="card">
+        <div id="poem-section" class="section">
+            <p id="poem-text" class="pixel-text">Loading...</p>
+            <button id="continue-btn" class="pixel-btn">Continue</button>
+        </div>
+
+        <div id="question-section" class="section hidden">
+            <h1 class="pixel-text">Will you be my Valentine?</h1>
+            <div class="buttons-container">
+                <button id="yes-btn" class="pixel-btn yes-btn">Yes</button>
+                <button id="no-btn" class="pixel-btn no-btn">No</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

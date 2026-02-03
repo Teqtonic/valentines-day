@@ -66,13 +66,13 @@ const finalPoem = [
 // -> QUESTION PHASE
 
 const poemTextData = [
-    "Hello my love! 👋",
-    "I coded this just for you.",
-    "Because you deserve the best,",
-    "And I love you true.",
-    "You make my world bright,",
-    "And everything align,", // Rhymes with Valentine
-    "So please don't decline..." 
+    "Hello my bear! 🐻",
+    "I coded this just for you,",
+    "A digital heartbeat,",
+    "With feelings deep and true.",
+    "You light up my world,",
+    "You make my stars align,",
+    "So I have one question...",
 ];
 
 let currentLineIndex = 0;
